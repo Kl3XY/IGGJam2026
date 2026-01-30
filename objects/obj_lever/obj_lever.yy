@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"controllableEnemy",
+  "%Name":"obj_lever",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"controllableEnemy",
+  "name":"obj_lever",
   "overriddenProperties":[],
   "parent":{
     "name":"Objekte",
@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"lever",
+    "path":"sprites/lever/lever.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

@@ -13,7 +13,12 @@ function player_normal(){
 			obj_player.activeState = player.normal;
 		})
 		
+		if (obj_player.ghostControllingEntity != noone) {
+			player_uncontrol_enemy()
+		}
+		
 	}
 	
 	player_entity_controls()
+	
 }

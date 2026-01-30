@@ -1,5 +1,5 @@
 duration = 60;
-
- _on_execute = function() {
+args = [];
+ _on_execute = function(args) {
 	
 }
