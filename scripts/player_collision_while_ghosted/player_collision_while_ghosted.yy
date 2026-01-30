@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"player_collision_while_ghosted",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"player_collision_while_ghosted",
+  "parent":{
+    "name":"player",
+    "path":"folders/Skripte/player.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
