@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"player_uncontrol_enemy",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"player_uncontrol_enemy",
+  "parent":{
+    "name":"player",
+    "path":"folders/Skripte/player.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

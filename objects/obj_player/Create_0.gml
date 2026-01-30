@@ -9,3 +9,4 @@ transformDuration = 50; // the duration the player stays in ghost form
 
 ghostDir = 0; // direction of the player for ghost
 ghostCollisionRadius = 64; // collision circle
+ghostControllingEntity = noone; // The entity that the player is controlling.

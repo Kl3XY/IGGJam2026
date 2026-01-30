@@ -1,21 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_genericEnemy",
+  "%Name":"sysVariables",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_genericEnemy",
+  "name":"sysVariables",
   "overriddenProperties":[],
   "parent":{
     "name":"Objekte",
     "path":"folders/Objekte.yy",
   },
-  "parentObjectId":{
-    "name":"controllableEnemy",
-    "path":"objects/controllableEnemy/controllableEnemy.yy",
-  },
-  "persistent":false,
+  "parentObjectId":null,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -32,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"enemyplaceholder",
-    "path":"sprites/enemyplaceholder/enemyplaceholder.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

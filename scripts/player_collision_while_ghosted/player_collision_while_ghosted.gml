@@ -1,6 +1,6 @@
 function player_collision_while_ghosted(){
-	var collisionCircle = collision_circle(x, y, ghostCollisionRadius, controllableEnemy, false, false);
-	with(collisionCircle) {
-		isControlled = true;	
+	var enemy = collision_circle(obj_player.x, obj_player.y, ghostCollisionRadius, controllableEnemy, false, false);
+	with(enemy) {
+		player_control_enemy(enemy)
 	}
 }

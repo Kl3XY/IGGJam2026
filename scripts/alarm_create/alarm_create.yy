@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"alarm_create",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"alarm_create",
+  "parent":{
+    "name":"system",
+    "path":"folders/Skripte/system.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
