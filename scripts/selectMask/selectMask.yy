@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"selectMask",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"selectMask",
+  "parent":{
+    "name":"player",
+    "path":"folders/Skripte/player.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

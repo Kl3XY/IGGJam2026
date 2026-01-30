@@ -1,20 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_genericEnemy",
+  "%Name":"obj_death_area",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_genericEnemy",
+  "name":"obj_death_area",
   "overriddenProperties":[],
   "parent":{
     "name":"Objekte",
     "path":"folders/Objekte.yy",
   },
-  "parentObjectId":{
-    "name":"controllableEnemy",
-    "path":"objects/controllableEnemy/controllableEnemy.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"enemyplaceholder",
-    "path":"sprites/enemyplaceholder/enemyplaceholder.yy",
+    "name":"death",
+    "path":"sprites/death/death.yy",
   },
   "spriteMaskId":null,
   "visible":true,

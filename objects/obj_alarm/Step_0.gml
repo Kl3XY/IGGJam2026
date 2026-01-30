@@ -1,6 +1,10 @@
 duration -= delta;
 
 if duration <= 0 {
-	_on_execute(args);
+	try {
+		_on_execute(args);
+	} catch(ex) {
+		show_message(ex);	
+	}
 	instance_destroy();	
 }

@@ -1,1 +1,0 @@
-connectedWall = inst_70460946;

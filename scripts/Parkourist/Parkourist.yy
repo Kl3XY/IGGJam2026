@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Parkourist",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Parkourist",
+  "parent":{
+    "name":"MaskScript",
+    "path":"folders/Skripte/MaskScript.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

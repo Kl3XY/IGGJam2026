@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"DoubleJumper",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"DoubleJumper",
+  "parent":{
+    "name":"MaskScript",
+    "path":"folders/Skripte/MaskScript.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

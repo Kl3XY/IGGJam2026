@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"GravityFlipper",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"GravityFlipper",
+  "parent":{
+    "name":"MaskScript",
+    "path":"folders/Skripte/MaskScript.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

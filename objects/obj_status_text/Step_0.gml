@@ -1,0 +1,1 @@
+copyVal += delta * 2;
