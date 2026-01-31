@@ -1,0 +1,1 @@
+sprite_index = choose(autumn_leaves1, autumn_leaves2, autumn_leaves3, autumn_leaves4, autumn_leaves5);
