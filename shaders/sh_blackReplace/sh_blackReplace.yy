@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"sh_blackReplace",
+  "name":"sh_blackReplace",
+  "parent":{
+    "name":"IGGameJam",
+    "path":"IGGameJam.yyp",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

@@ -11,7 +11,10 @@
     "name":"Objekte",
     "path":"folders/Objekte.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_lightParent",
+    "path":"objects/obj_lightParent/obj_lightParent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

@@ -1,7 +1,8 @@
 function mask() constructor {
 	name = "undefined";
 	description = "";
-	sprite = "";
+	sprite = nothing;
+	uiSprite = nothing;
 	
 	function action() {}
 	function select() {}

@@ -35,5 +35,5 @@
     "path":"sprites/checkpoint/checkpoint.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

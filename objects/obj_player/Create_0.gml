@@ -14,15 +14,21 @@ ghostControllingEntity = noone; // The entity that the player is controlling.
 yGrv = 0.3;
 ySpd = 0;
 xSpd = 0;
+spdAdd = 0;
 
 runSpeed = 6;
 currentSpeed = 0;
 jumpHeight = -6;
 
+angle = 0;
+
 transforming_gauge = 100;
 gauge_x = 15;
 gauge_y = 15;
 flipGrv = false;
+
+maxSpeed = 3.5;
+ghostCooldown = 2;
 
 respawnX = 0;
 respawnY = 0;
@@ -40,4 +46,3 @@ selectedMask = 0;
 
 masks = ds_list_create();
 ds_list_add(masks, new NoMask())
-

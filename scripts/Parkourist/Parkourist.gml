@@ -1,7 +1,8 @@
 function Parkourist() : mask() constructor{
 	name = "Parkourist";
 	description = "Running fast and toggle gliding on command"
-	sprite = wall_removeable;
+	sprite = spr_mask_parkourist;
+	uiSprite = spr_UI_Mask2;
 	
 	function select() {
 		obj_player.runSpeed = 12;

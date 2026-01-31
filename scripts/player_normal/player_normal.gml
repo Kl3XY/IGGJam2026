@@ -11,8 +11,17 @@ function player_normal(){
 	} else {
 		yGrv = 0.3;
 	}
-
-	xSpd = lr * currentSpeed * delta;
+	
+	if flipGrv {
+		image_yscale = -1;	
+	} else {
+		image_yscale = 1;	
+	}
+	
+	angle = 0;
+	
+	spdAdd = clamp(spdAdd, -maxSpeed, maxSpeed)
+	xSpd = spdAdd;
 	if !flipGrv {
 		ySpd += yGrv * delta;
 	} else {
@@ -40,6 +49,17 @@ function player_normal(){
 	ghostDir = point_direction(0, 0, lr, ud);
 	
 	if is_on_floor() {
+			
+		if lr != 0 {
+			sprite_index = spr_player_walk;	
+			image_xscale = lr;
+			spdAdd += lr * 0.40 * delta
+		} else {
+			sprite_index = spr_player_idle;	
+			spdAdd = lerp(spdAdd, 0, 0.5 * delta);
+		}
+
+		
 		currentSpeed = lerp(currentSpeed, runSpeed, 0.2);
 		isGliding = false;
 		if keyboard_check(vk_down) {
@@ -47,12 +67,25 @@ function player_normal(){
 		}
 		canDash = true;
 		amtJumps = amtJumpsSet;
+	} else {
+		if lr != 0 {
+			spdAdd += lr * 0.3 * delta
+		}
+		
+		sprite_index = spr_player_jump	
+
+	}
+	
+	if (sign(xSpd) != lr and abs(xSpd) > 0.1) {
+		sprite_index = spr_player_switchPos	
 	}
 	
 	if keyboard_check_pressed(ord("Q")) and amtJumps > 0 {
 		if flipGrv {
 			ySpd = -jumpHeight;	
+			image_index = 0;
 		} else {
+			image_index = 0;
 			ySpd = jumpHeight;	
 		}
 		amtJumps--
